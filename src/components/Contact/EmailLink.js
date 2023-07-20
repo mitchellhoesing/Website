@@ -8,23 +8,9 @@ const validateText = (text) => {
   const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
   return re.test(text) || text.length === 0;
 };
-
+// TODO: Remove animation. Make static text.
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'hoesingmitch02',
 ];
 
 const useInterval = (callback, delay) => {
@@ -84,7 +70,7 @@ const EmailLink = ({ loopMessage }) => {
     >
       <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@gmail.com</span>
       </a>
     </div>
   );

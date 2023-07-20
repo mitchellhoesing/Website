@@ -19,11 +19,12 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Mitch. // TODO: BIO DESCRIPTION
+      <p>Hi, I&apos;m Mitch. // TODO: BIO DESCRIPTION. About Me Link below is broken.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link>
+            : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
     </section>

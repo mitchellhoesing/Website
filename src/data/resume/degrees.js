@@ -1,15 +1,17 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
+    school: 'Penn. State University',
+    degree: 'M.S. Data Informatics',
+    // TODO: Update link here.
     link: 'https://stanford.edu',
-    year: 2016,
+    year: 2024,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
+    school: 'Oregon State University',
+    degree: 'B.S. Computer Science',
+    // TODO: Update Link and confirm year.
     link: 'https://buffalo.edu',
-    year: 2012,
+    year: 2018,
   },
 ];
 

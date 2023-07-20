@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import data from '../../data/contact';
-
+// TODO: Fix/remove ContactIcons
 const ContactIcons = () => (
   <ul className="icons">
     {data.map((s) => (
